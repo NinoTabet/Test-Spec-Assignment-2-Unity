@@ -1,18 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
+using UnityEngine.Networking;
 
 public class ApiHandler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public void SendPoints()
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
