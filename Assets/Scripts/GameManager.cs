@@ -256,4 +256,27 @@ public class GameManager : MonoBehaviour
             image.color = color;
         }
     }
+
+    public void RestartGame()
+    {
+        // resets the current player to "X"
+        currentPlayer = "X"; 
+
+        // reinitializes the game board
+        board = new string[3, 3]; 
+        
+        // sets the game as active
+        gameActive = true; 
+        foreach (Button button in buttons)
+        {
+            // resets button sprites
+            button.GetComponent<Image>().sprite = null; 
+
+            // resets button opacity to 0
+            SetButtonOpacity(button, 0f); 
+        }
+
+        // starts a new game
+        StartGame(); 
+    }
 }

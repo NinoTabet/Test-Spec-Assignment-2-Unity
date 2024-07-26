@@ -1459,6 +1459,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aaa162c177514114a94b3657ac30116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messageText: {fileID: 185047186}
+  buttons:
+  - {fileID: 1933021883}
+  - {fileID: 1283540011}
+  - {fileID: 1082782844}
+  - {fileID: 1060822520}
+  - {fileID: 1681618504}
+  - {fileID: 854051968}
+  - {fileID: 983083659}
+  - {fileID: 1580252508}
+  - {fileID: 389559876}
+  xSprite: {fileID: 21300000, guid: debf0076b6d524c0588a046c2ce553a3, type: 3}
+  oSprite: {fileID: 21300000, guid: bbb8d8d15fc404611ac269147bf8a654, type: 3}
 --- !u!4 &1244993604
 Transform:
   m_ObjectHideFlags: 0
